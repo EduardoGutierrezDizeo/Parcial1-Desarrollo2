@@ -1,0 +1,193 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/logo.jpeg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Phanicbloom</title>
+	</head>
+	<body>
+		<nav class="w-ful h-[80px] flex ">
+			<div class="h-[80px] w-1/3">
+				<img class="h-[80px] w-auto ml-40" src="logo.jpeg" alt="">
+			</div>
+
+			<div class="h-[80px] w-2/3 items-center flex gap-10 justify-end mr-40">
+				<a class="text-neutral-400" href="">PRODUCTS</a>
+				<a class="text-neutral-400" href="">NEWSLETTER</a>
+				<a class="text-orange-600" >CONTACT</a>
+			</div>
+		</nav>
+
+		<section class="w-5/6 h-auto m-auto pt-10 mb-[150px]">
+			<div class="w-full m-auto text-center">
+				<h2 class="text-5xl mb-5 text-neutral-800">THE COLLECTION</h2>
+				<div class="w-1/3 m-auto mb-10">
+					<p class="text-neutral-500 text-lg">we are inventing pocket format digital synthesizer for your unique sounds creations and meditation</p>
+				</div>
+			</div>
+
+			<div class="w-full h-auto m-auto">
+				<div class="flex w-full h-auto justify-center gap-7">
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="flex w-full h-auto mt-10 justify-center gap-7">
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+
+					<div class="flex flex-col items-center w-[300px] h-auto pb-[30px]">
+						<img class="w-full h-auto mb-[30px]" src="im1.jpeg" alt="">
+						<div class="text-center items-center flex flex-col gap-1">
+							<h2 class="text-cyan-500 text-2xl">Loopstyler</h2>
+							<p class="text-neutral-400 text-xm">Create song whit stylus</p>
+							<p class="text-orange-600 text-2xl mb-2">Frequent updates!</p>
+							<button class="text-neutral-400 border-solid border border-neutral-400 rounded-xl w-[140px]">Order here</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="w-full h-[500px] pl-28 m-auto flex flex-col justify-end">
+				<h2 class="text-5xl mb-5">Don´t miss the news</h2>
+				<div class="flex text-xm">
+					<a class="text-blue-600" href="">Subscribe for the news letters</a>
+					<p class="text-neutral-400">- about news products and software updates</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="w-full flex items-center justify-center h-[800px] bg-[url('/public/fondo.jpg')] bg-no-repeat bg-cover">
+			
+			<div class="bg-white bg-opacity-90 w-2/5 h-auto p-11 text-neutral-500" >
+				<div class="flex w-ful justify-end mb-6">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
+						<path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+					</svg>	  
+				</div>
+
+				<div class="flex flex-col gap-4">
+					<h2 class="text-black text-4xl mb-5">GET IN TOUCH</h2>
+					<div class="flex gap-2 items-center">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+							<path fill-rule="evenodd" d="M19.952 1.651a.75.75 0 0 1 .298.599V16.303a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.403-4.909l2.311-.66a1.5 1.5 0 0 0 1.088-1.442V6.994l-9 2.572v9.737a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.402-4.909l2.31-.66a1.5 1.5 0 0 0 1.088-1.442V5.25a.75.75 0 0 1 .544-.721l10.5-3a.75.75 0 0 1 .658.122Z" clip-rule="evenodd" />
+						</svg>
+						<p>Follow @phonicbloom on <samp class="text-blue-600">Instagram</samp> to be notified</p>
+					</div>
+					<p>about product news and availability.</p>
+					<p>Any questions or enquiries - feel free to email us</p>
+					<p class="text-red-700">if you are contacting us about your order, please check your mailbox first, especially spam folder - chances are that we already contacted you.</p>
+					<div class="flex gap-2 items-center">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+							<path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+							<path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+						</svg>
+						<p>contact@phonicbloom.com</p>  
+					</div>
+					<p class="mt-5">Technical questions can be discussed on the <span class="text-blue-600">support forum</span> </p>
+				</div>
+				
+			</div>
+		</section>
+
+		<footer class="w-full  h-[300px] bg-white">
+			<div class=" m-auto w-[1000px] h-[180px] flex gap-8 items-center justify-center border-b border-solid border-neutral-200">
+				<button class="bg-blue-400 w-[50px] h-[50px] rounded-full flex items-center justify-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="size-8">
+						<path fill-rule="evenodd" d="M12 21.75c5.385 0 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25 2.25 6.615 2.25 12s4.365 9.75 9.75 9.75ZM10.5 7.963a1.5 1.5 0 0 0-2.17-1.341l-.415.207a.75.75 0 0 0 .67 1.342L9 7.963V9.75h-.75a.75.75 0 1 0 0 1.5H9v4.688c0 .563.26 1.198.867 1.525A4.501 4.501 0 0 0 16.41 14.4c.199-.977-.636-1.649-1.415-1.649h-.745a.75.75 0 1 0 0 1.5h.656a3.002 3.002 0 0 1-4.327 1.893.113.113 0 0 1-.045-.051.336.336 0 0 1-.034-.154V11.25h5.25a.75.75 0 0 0 0-1.5H10.5V7.963Z" clip-rule="evenodd" />
+					</svg>  
+				</button>
+				<button class="bg-blue-400 w-[50px] h-[50px] rounded-full flex items-center justify-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="size-8">
+						<path fill-rule="evenodd" d="M12 21.75c5.385 0 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25 2.25 6.615 2.25 12s4.365 9.75 9.75 9.75ZM10.5 7.963a1.5 1.5 0 0 0-2.17-1.341l-.415.207a.75.75 0 0 0 .67 1.342L9 7.963V9.75h-.75a.75.75 0 1 0 0 1.5H9v4.688c0 .563.26 1.198.867 1.525A4.501 4.501 0 0 0 16.41 14.4c.199-.977-.636-1.649-1.415-1.649h-.745a.75.75 0 1 0 0 1.5h.656a3.002 3.002 0 0 1-4.327 1.893.113.113 0 0 1-.045-.051.336.336 0 0 1-.034-.154V11.25h5.25a.75.75 0 0 0 0-1.5H10.5V7.963Z" clip-rule="evenodd" />
+					</svg>  
+				</button>
+				<button class="bg-blue-400 w-[50px] h-[50px] rounded-full flex items-center justify-center">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="size-8">
+						<path fill-rule="evenodd" d="M12 21.75c5.385 0 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25 2.25 6.615 2.25 12s4.365 9.75 9.75 9.75ZM10.5 7.963a1.5 1.5 0 0 0-2.17-1.341l-.415.207a.75.75 0 0 0 .67 1.342L9 7.963V9.75h-.75a.75.75 0 1 0 0 1.5H9v4.688c0 .563.26 1.198.867 1.525A4.501 4.501 0 0 0 16.41 14.4c.199-.977-.636-1.649-1.415-1.649h-.745a.75.75 0 1 0 0 1.5h.656a3.002 3.002 0 0 1-4.327 1.893.113.113 0 0 1-.045-.051.336.336 0 0 1-.034-.154V11.25h5.25a.75.75 0 0 0 0-1.5H10.5V7.963Z" clip-rule="evenodd" />
+					</svg>  
+				</button>
+			</div>
+
+			<div class="text-neutral-400 flex items-center justify-center m-auto w-[800px] h-[120px] ">
+				<p>Copyright @ 2024 Phonicbloom Ltd, ireland. All rights reserved</p>
+			</div>
+		</footer>
+	</body>
+</html>
+
